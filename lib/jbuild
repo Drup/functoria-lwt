@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(library
+  ((name        functoria_lwt)
+   (public_name functoria-lwt)
+   (wrapped     false)
+   (libraries (functoria functoria.app))))
